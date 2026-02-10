@@ -10,7 +10,7 @@ bool _printProperties();
 int main (void) {
     // Main method to call subsequent helper methods to find the number of devices on the system and output their properties
 
-    if !_printProperties() {
+    if (!_printProperties()) {
         cout << "ERROR: Could not retrieve device properties" << endl;
         return 1;
     }
@@ -74,7 +74,7 @@ bool _printProperties() {
         cout << "MultiProcessor Count: " << properties.multiProcessorCount  << endl;
         cout << "Max Threads per MultiProcessor: " << properties.maxThreadsPerMultiProcessor << endl;
         cout << "Max Threads per Block: " << properties.maxThreadsPerBlock << endl;
-        cout << "Clock Rate: " << properties.clockRate << endl;
+        // cout << "Clock Rate: " << properties.clockRate << endl;
         cout << endl;   // Print a blank line to separate each device
     }
 
