@@ -65,7 +65,7 @@ bool _printProperties() {
         }  
 
         // Print a header line to start the device
-        cout << "----- Device " << i << " -----" << endl;
+        cout << "----- Device " << i + 1 << " -----" << endl;
 
         // Print each property of the device
         cout << "Name: " << properties.name << endl;
