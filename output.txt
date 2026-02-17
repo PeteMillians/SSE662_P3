@@ -1,0 +1,8 @@
+----- Device 1 -----
+Name: NVIDIA GeForce RTX 4070 Ti SUPER
+Major: 8
+Minor: 9
+MultiProcessor Count: 66
+Max Threads per MultiProcessor: 1536
+Max Threads per Block: 1024
+
