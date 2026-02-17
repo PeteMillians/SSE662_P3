@@ -74,7 +74,6 @@ bool _printProperties() {
         cout << "MultiProcessor Count: " << properties.multiProcessorCount  << endl;
         cout << "Max Threads per MultiProcessor: " << properties.maxThreadsPerMultiProcessor << endl;
         cout << "Max Threads per Block: " << properties.maxThreadsPerBlock << endl;
-        // cout << "Clock Rate: " << properties.clockRate << endl;
         cout << endl;   // Print a blank line to separate each device
     }
 
